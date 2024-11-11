@@ -1,0 +1,102 @@
+.header {
+    background-color: transparent;
+    color: #000000;
+    width: 100%;
+    height: 50px;
+    border: 0%;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .heading {
+    height: 150px;
+    line-height: 120px;
+    text-align: center;
+    font-size: 400%;
+    font-weight: 800;
+  }
+  
+
+  .nav {
+    width: 100%;
+    height: 70px;
+    background-color: #82eefd;
+    z-index: 9;
+  }
+  
+  .nav li a:hover {
+    background-color: #111;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+  }
+  
+  .article {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 400px;
+    height: 500px;
+    background-color: #3cd7a8;
+    border-radius: 30px;
+  }
+
+  .american {
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-image: url(https://www.thecookierookie.com/wp-content/uploads/2023/04/stovetop-burgers-recipe-2.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+  }
+  .chinese {
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-image: url(https://di-uploads-pod11.dealerinspire.com/volkswagenofstreetsboro/uploads/2021/10/Chinese-Food-on-a-Plate.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 370px;
+    top: 150px;
+  }
+  .greek {
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-image: url(https://www.unicornsinthekitchen.com/wp-content/uploads/2022/01/Chicken-souvlaki-4.1200px.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 690px;
+    top: 150px;
+  }
+  .italian {
+    width: 250px;
+    height: 280px;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-image: url(https://t3.ftcdn.net/jpg/01/00/52/14/360_F_100521407_15ViliDWGLkB1N6Lwh5DQg9MePJa5tbw.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 1010px;
+    top: 150px;
+  }
+
+.p {
+font-size: large;
+font-weight: bolder;
+position: absolute;
+top: 500px;
+
+}
